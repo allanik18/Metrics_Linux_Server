@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-#
-# 
+
 
 """ usage of linux-metrics """
 
