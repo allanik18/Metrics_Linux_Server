@@ -1,4 +1,4 @@
-# Metrics_Linux_Server
+# Metrics Linux Server
 
 ## Description
 Linux-metrics is a Python package that contains a module for extracting metrics about Linux Server and have packaged into the Docker container. Two main metrics are provided-processor (cpu) and memory (mem).
