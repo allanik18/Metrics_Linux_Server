@@ -6,6 +6,10 @@ Linux-metrics is a Python package that contains a module for extracting metrics 
 ## Requirements
 * installed Docker
 * Python version 3
+* If you are going to run this script locally you will need to install module linux-metrics
+```bash
+$ pip install linux-metrics
+```
 
 ## Build and run Docker container
 ```bash
@@ -13,7 +17,7 @@ $ docker build -t lm .
 ```
 Creat alias to run container
 ```bash
-$ alias metrics="docker run -it --mount type=bind,source=/proc/stat,target=/proc/stat
+$ alias metrics="docker run -it --mount type=bind,source=/proc/stat,target=/proc/stat lm"
 ```
 Run alias with parametres "cpu" or "mem"
 ```bash

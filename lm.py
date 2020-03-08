@@ -1,14 +1,8 @@
 #!/usr/bin/env python
-
-
 """ usage of linux-metrics """
-
 
 import linux_metrics as lm
 import sys
-
-
-
 
 def main(metric='cpu'):
     if metric == 'cpu':
@@ -32,7 +26,6 @@ def main(metric='cpu'):
         print('mem free: %s' %  free)
         print('swap total: %s' % total)
         print('swap free: %s' % free)
-
 
 if __name__ == '__main__':
     try:
